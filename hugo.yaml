@@ -2,3 +2,63 @@ baseURL: https://Gwen-JW.github.io/
 languageCode: en-us
 title: Gwen's Log
 theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Gwen's Log
+  description: "My personal page"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Jiawen WEI
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "👋 Welcome to Gwen's Log"
+    Content: >
+      Hi, this is Jiawen. 
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: https://github.com/Gwen-JW
+    - name: googlescholar
+      title: View Source on Google Scholar
+      url: https://scholar.google.com/citations?user=Cc-4rGwAAAAJ&hl=en
+    - name: linkedin
+      title: connections
+      url: https://www.linkedin.com/in/jiawen-wei-363197200/
+
+
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: About
+      url: about

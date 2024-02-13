@@ -1,0 +1,9 @@
+#+title: Jiawen WEI
+#+layout: about
+
+I am a PhD student at [[https://www.mathexlab.com][MatheXLab]] research group in National University of Singapore, supervised by Prof. Gianmarco MENGALDO.
+My research interests include Explainable Artificial Intelligence (XAI) for time series, images and texts.
+
+View my [[file:/CV_Jiawen.pdf][CV]] Here (updated at 18 Dec, 2023)
+
+{{< figure align=center src="/imgs/jiawen.jpg" >}}
