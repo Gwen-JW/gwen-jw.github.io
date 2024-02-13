@@ -1,4 +1,5 @@
-baseURL: https://Gwen-JW.github.io/
+# baseURL: https://Gwen-JW.github.io/
+baseURL: https://page.jiawennw.com/
 languageCode: en-us
 title: Gwen's Log
 theme: "PaperMod"
