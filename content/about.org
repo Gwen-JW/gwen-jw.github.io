@@ -6,4 +6,4 @@ My research interests include Explainable Artificial Intelligence (XAI) for time
 
 View my [[file:/CV_Jiawen.pdf][CV]] Here (updated at 18 Dec, 2023)
 
-{{< figure align=center src="/imgs/jiawen.jpg" >}}
+{{< figure align=center width=400 src="/imgs/jiawen.jpg" >}}
