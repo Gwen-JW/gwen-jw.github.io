@@ -23,6 +23,7 @@ params:
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
+  ignoreErrors: ["error-remote-getjson"]
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
