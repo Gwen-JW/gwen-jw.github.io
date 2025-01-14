@@ -65,3 +65,12 @@ menu:
       weight: 10
     - name: About
       url: about
+
+outputs:
+  home:
+  # To create webpages. 
+    - HTML
+  # To create RSS Feed
+    - RSS
+  # To create an index.json so search works on the site
+    - JSON
