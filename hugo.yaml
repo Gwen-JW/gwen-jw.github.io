@@ -19,7 +19,7 @@ params:
   author: Jiawen WEI
 
   defaultTheme: auto
-  disableThemeToggle: true
+  disableThemeToggle: false
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
@@ -40,19 +40,25 @@ params:
 
   socialIcons:
     - name: github
-      title: View Source on Github
+      title: Github
       url: https://github.com/Gwen-JW
     - name: googlescholar
-      title: View Source on Google Scholar
+      title: Google Scholar
       url: https://scholar.google.com/citations?user=Cc-4rGwAAAAJ&hl=en
     - name: linkedin
-      title: connections
+      title: LinkedIn
       url: https://www.linkedin.com/in/jiawen-wei-363197200/
+    - name: X
+      title: X
+      url: https://x.com/wei_gwen
+    - name: rss
+      title: RSS
+      url: index.xml
+
 
 menu:
   main:
     - name: Posts
-      url: posts/
       weight: 1
     - name: Archive
       url: archives
@@ -68,9 +74,6 @@ menu:
 
 outputs:
   home:
-  # To create webpages. 
     - HTML
-  # To create RSS Feed
     - RSS
-  # To create an index.json so search works on the site
-    - JSON
+    - JSON # necessary for search
