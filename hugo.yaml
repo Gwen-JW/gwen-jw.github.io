@@ -32,6 +32,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+  ShareButtons: ["x", "linkedin", "reddit", "facebook", "whatsapp", "telegram"]
 
   homeInfoParams:
     Title: "👋 Welcome to Gwen's Log"
